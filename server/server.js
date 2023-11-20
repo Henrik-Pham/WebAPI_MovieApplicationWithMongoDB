@@ -28,4 +28,4 @@ client.connect().then((connection) => {
   createMoviesRouter(db);
 });
 
-app.listen(process.env.PORT || 3200);
+app.listen(process.env.PORT || 3000);
