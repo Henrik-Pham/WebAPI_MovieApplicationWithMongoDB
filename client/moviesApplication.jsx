@@ -22,7 +22,7 @@ function MovieEntry({ movie }) {
   return (
     <>
       <h3>
-        {movie.title} ({movie.year} meta critic score: {movie.metacritic})
+        {movie.title} ({movie.year} Meta critic score: {movie.metacritic})
       </h3>
       <p>{movie.plot}</p>
     </>
