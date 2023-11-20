@@ -16,7 +16,7 @@
     "check": "npm run check:prettier",
     "check:prettier": "prettier --check .",
     "prettier": "prettier --write .",
-    "postinstall": "npm run install:client && npm run install:server",
+    "heroku-postbuild": "npm run build:client",
     "install:client": "cd client && npm install --include=dev",
     "install:server": "cd server && npm install"
   },
