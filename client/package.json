@@ -6,14 +6,8 @@
     "build": "parcel build index.html",
     "dev": "parcel watch index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.9.3",
-    "process": "^0.11.10"
-  },
   "dependencies": {
+    "parcel": "^2.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0"
